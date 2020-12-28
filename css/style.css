@@ -1,0 +1,105 @@
+body{
+    background-color: #f1f6f9 !important;
+    font-family: 'Asap', sans-serif !important;
+    transition: background-color ease 1s;
+
+}
+
+h1{
+    color: aliceblue;
+    text-align: center;
+    color: #f1f6f9;
+    text-transform: uppercase;
+    font-family: 'Special Elite', cursive;
+    font-size: 3rem !important;
+}
+
+.container{
+    margin-top: 5rem;
+    background-color: #4b616e;
+    min-height: 85vh;
+    border-radius: 10px;
+    transition: background-color ease 1s;
+}
+
+
+
+/* card 1 */
+.card-header{
+    background-color: #433d3c !important;
+    color: beige;
+    font-size: 1.2rem;
+    font-weight: 500;
+    font-family: 'Special Elite', cursive;
+    transition: background-color ease 1s;
+}
+.card-body{
+    background-color: #9ba4b4;
+    transition: background-color ease 1s;
+}
+
+button{
+    background-color: #944e6c !important;
+}
+
+button:hover{
+    background-color: #c26c91 !important;
+}
+
+.fa-plus{
+    color: #fcf8e8;
+}
+
+
+/* card 2 */
+
+#btnDeleteAll{
+    background-color: #944e6c;
+    color: #fcf8e8;
+    font-weight: 500;
+    transition: all ease 0.3s;
+    font-family: 'Asap', sans-serif !important;
+
+}
+
+#btnDeleteAll:hover{
+    color: #fcf8e8;
+    opacity: 1;
+    background-color: #c26c91;
+}
+
+.list-group-item{
+background-color: #944e6c !important;
+}
+
+.fa-times{
+    color: #fcf8e8;
+}
+
+ul{
+    background-color: #9ba4b4;
+    min-height: 40vh;
+    transition: background-color ease 1s;
+}
+
+li{
+    color: #fcf8e8;
+    font-size: 1.1rem;
+    font-weight: 300;
+    transition: all ease 0.5s;
+}
+
+li:hover{
+   background-color: #68364b  !important;
+}
+
+/* dark mode */
+
+#dark_button{
+    float: right;
+    color: #fcf8e8;
+    background-color: #433d3c !important;
+    font-size: 1.1rem;
+    border-radius: 999px;
+    line-height: 1.7;
+}
